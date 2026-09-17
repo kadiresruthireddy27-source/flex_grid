@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+        .box {
+            display:flex;
+            background-color: blueviolet;
+            justify-content: space-between;
+        }
+        .box div {
+            background-color: aqua;
+            margin: 15px;
+            padding:19px;
+            font-family: monospace;
+        }
+                .box4 {
+            display:flex;
+            background-color: blueviolet;
+            align-items: stretch;
+            height: 150px;
+        }
+        .box4 div {
+            background-color: aqua;
+            margin: 15px;
+            padding:19px;
+            font-family: monospace;
+        }
+
+        .box2 {
+            flex-direction: column;
+            background-color: blueviolet;
+            align-content: space-between;
+        }
+        .box2 div {
+            background-color: aqua;
+            margin: 15px;
+            padding:19px;
+            font-family: monospace;
+        }
+        .box3 {
+            display:flex;
+            background-color: blueviolet;
+            justify-content: space-around;
+        }
+        .box3 div {
+            background-color: aqua;
+            margin: 15px;
+            padding:19px;
+            font-family: monospace;
+        }
+        .box5 {
+            display:flex;
+            background-color: blueviolet;
+            justify-content: space-around;
+        }
+        .box5 div {
+            border: 8px solid aqua;
+            margin: 15px;
+            padding:19px;
+            font-family: monospace;
+        }
+         .box6 {
+            display:flex;
+            background-color: blueviolet;
+            justify-content: space-around;
+            height: 300px;
+            align-items: flex-start;
+        }
+        .box6 div {
+            background-color: aqua;
+            margin: 15px;
+            padding:19px;
+            font-family: monospace;
+        }
+        .box7 {
+            display:flex;
+            background-color: blueviolet;
+            justify-content: space-around;
+            height: 300px;
+            align-items: flex-end;
+        }
+        .box7 div {
+            background-color: aqua;
+            margin: 15px;
+            padding:19px;
+            font-family: monospace;
+        }
+        .box8 {
+            display:flex;
+            background-color: blueviolet;
+            justify-content: space-around;
+            height: 300px;
+            align-items: center;
+        }
+        .box8 div {
+            background-color: aqua;
+            margin: 15px;
+            padding:19px;
+            font-family: monospace;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            background-color: brown;
+            padding: 25px;
+            gap:15px;
+
+        }
+        .grid div {
+            background-color: aquamarine;
+            font-size: larger;
+            padding: 30px;
+        }
+        .grid1 {
+            display: grid;
+            grid-template-rows: auto  auto;
+            background-color: brown;
+            padding: 25px;
+            gap:15px;
+            column-gap: 10px;
+
+        }
+        .grid1 div {
+            background-color: aquamarine;
+            font-size: larger;
+            padding: 30px;
+        }
+        .grid2 {
+            display: grid;
+            grid-template-columns: auto  auto;
+            background-color: brown;
+            padding: 25px;
+            gap:15px;
+            column-gap: 10px;
+
+        }
+        .grid2 div {
+            background-color: aquamarine;
+            font-size: larger;
+            padding: 30px;
+        }
+        .html {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 5px;
+  background-color: rgb(49, 112, 39);
+  padding: 5px;
+  height:400px;
+}
+
+.html div {
+  background-color: #b6f47f;
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.d {
+  grid-column: 1 / span 2;
+
+  grid-row:2 / span 2;
+}
+                .css {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 5px;
+  background-color: rgb(73, 26, 66);
+  padding: 5px;
+  height:400px;
+}
+
+        .css div {
+  background-color: #da77d0;
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.m {
+justify-self: center;
+}
+.o{
+    justify-self: end;
+}
+.p {
+    align-self: start;
+}
+.r{
+    align-self: end;
+}
+.j 
+{ order: 1;}
+.k
+{ order: 3;}
+.l 
+{ order: 8;}
+.m 
+{ order: 7;}
+.n
+{ order: 5;}
+.o
+{ order: 9;}
+    </style>
+</head>
+<body>
+    <div class="box">
+<div>box1</div>
+<div>box2</div>
+<div>box3</div>
+<div>box4</div>
+    </div>
+    <br>
+    <br>
+    <br>
+        <div class="box2">
+<div>box1</div>
+<div>box2</div>
+<div>box3</div>
+<div>box4</div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="box3">
+<div>box1</div>
+<div>box2</div>
+<div>box3</div>
+<div>box4</div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="box4">
+<div>box1</div>
+<div>box2</div>
+<div>box3</div>
+<div>box4</div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="box5">
+<div>box1</div>
+<div>box2</div>
+<div>box3</div>
+<div>box4</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="box6">
+<div>box1</div>
+<div>box2</div>
+<div>box3</div>
+<div>box4</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="box7">
+<div>box1</div>
+<div>box2</div>
+<div>box3</div>
+<div>box4</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="box8">
+<div>box1</div>
+<div>box2</div>
+<div>box3</div>
+<div>box4</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="grid">
+<div>box1</div>
+<div>box2</div>
+<div>box3</div>
+<div>box4</div>
+<div>box5</div>
+<div>box6</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="grid1">
+<div>box1</div>
+<div>box2</div>
+<div>box3</div>
+<div>box4</div>
+<div>box5</div>
+<div>box6</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="grid2">
+<div>box1</div>
+<div>box2</div>
+<div>box3</div>
+<div>box4</div>
+<div>box5</div>
+<div>box6</div>
+</div>
+<br>
+<br>
+<br>
+    <div class="html">
+  <div class="a">a</div>
+  <div class="b">b</div>
+  <div class="c">c</div>  
+  <div class="d">d</div>
+  <div class="e">e</div>
+  <div class="f">f</div>
+  <div class="g">g</div>
+  <div class="h">h</div>
+  <div class="i">i</div>
+
+</div>
+<br>
+<br>
+<br>
+<div class="css">
+  <div class="j">a</div>
+  <div class="k">b</div>
+  <div class="l">c</div>  
+  <div class="m">d</div>
+  <div class="n">e</div>
+  <div class="o">f</div>
+  <div class="p">g</div>
+  <div class="q">h</div>
+  <div class="r">i</div>
+
+</div>
+<br>
+<br>
+<br>
+<br>
+
+
+</body>
+</html>
